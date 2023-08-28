@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1017
 {
     public static void main(String[] args)
     {
@@ -13,6 +13,6 @@ public class Main
         velocidadeMedia = sc.nextInt();
         combustivelGasto = (horas * velocidadeMedia) / 12.0;
         
-        System.out.println(String.format("%.3f", combustivelGasto));
+        System.out.printf("%.3f%n", combustivelGasto);
     } 
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1047
 {
     public static void main(String[] args)
     {
@@ -12,7 +12,7 @@ public class Main
         int mTotaisInicial = (hInicial*60) + mInicial;
         int mTotaisFinal = (hFinal*60) + mFinal;
         int mTotaisDia = (24*60);
-        int resultado = 0;
+        int resultado;
 
         if(mTotaisFinal > mTotaisInicial)
         {

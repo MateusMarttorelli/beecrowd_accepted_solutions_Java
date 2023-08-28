@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1008
 {
     public static void main(String[] args)
     {
@@ -16,6 +16,6 @@ public class Main
         salario = hora * valor;
         
         System.out.println("NUMBER = " + n);
-        System.out.println(String.format("SALARY = U$ %.2f", salario));
+        System.out.printf("SALARY = U$ %.2f%n", salario);
     }
 }

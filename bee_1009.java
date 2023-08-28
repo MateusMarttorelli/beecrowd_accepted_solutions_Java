@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1009
 {
     public static void main(String[] args)
     {
@@ -13,6 +13,6 @@ public class Main
         vendasTotais = Double.parseDouble(sc.nextLine());
         salarioFinal = salarioFixo + (vendasTotais * 0.15);
         
-        System.out.println(String.format("TOTAL = R$ %.2f", salarioFinal));
+        System.out.printf("TOTAL = R$ %.2f%n", salarioFinal);
     }
 }

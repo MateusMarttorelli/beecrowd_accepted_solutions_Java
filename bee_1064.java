@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public class bee_1064
+{
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -21,6 +22,6 @@ public class Main {
         media /= positivos;
 
         System.out.println(positivos + " valores positivos");
-        System.out.println(String.format("%.1f", media));
+        System.out.printf("%.1f%n", media);
     }
 }

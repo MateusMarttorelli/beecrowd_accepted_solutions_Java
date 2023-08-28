@@ -1,12 +1,12 @@
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class Main
+public class bee_1050
 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        HashMap<Integer, String> cidade = new HashMap<Integer, String>();
+        HashMap<Integer, String> cidade = new HashMap<>();
 
         cidade.put(61, "Brasilia");
         cidade.put(71, "Salvador");

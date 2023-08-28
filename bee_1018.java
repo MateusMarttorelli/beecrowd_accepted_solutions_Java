@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Main
+public class bee_1018
 {
     public static void main(String[] args)
     {
@@ -23,9 +23,8 @@ public class Main
         atual -= nota5 * 5;
         nota2 = atual/2;
         atual -= nota2 * 2;
-        nota1 = atual/1;
-        atual -= nota1 * 1;
-        
+        nota1 = atual;
+
         System.out.println(valor);
         System.out.println(nota100 + " nota(s) de R$ 100,00");
         System.out.println(nota50 + " nota(s) de R$ 50,00");

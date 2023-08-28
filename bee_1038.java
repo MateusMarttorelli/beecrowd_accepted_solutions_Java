@@ -1,11 +1,11 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Main
+public class bee_1038
 {
     public static void main(String[] args)
     {
-        HashMap<Integer, Double> lanche = new HashMap<Integer, Double>();
+        HashMap<Integer, Double> lanche = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         int opcao, x;
 

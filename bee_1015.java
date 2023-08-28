@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1015
 {
     public static void main(String[] args)
     {
@@ -16,6 +16,6 @@ public class Main
         
         distancia = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
         
-        System.out.println(String.format("%.4f", distancia));
+        System.out.printf("%.4f%n", distancia);
     }
 }

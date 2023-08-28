@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1020
 {
     public static void main(String[] args)
     {
@@ -16,8 +16,8 @@ public class Main
         meses = aux/30;
         aux -= meses * 30;
         
-        dias = aux/1;
+        dias = aux;
         
-        System.out.println(String.format("%d ano(s)\n%d mes(es)\n%d dia(s)", anos, meses, dias));
+        System.out.printf("%d ano(s)\n%d mes(es)\n%d dia(s)%n", anos, meses, dias);
     }   
 }

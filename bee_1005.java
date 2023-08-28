@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1005
 {
     public static void main(String[] args)
     {
@@ -13,6 +13,6 @@ public class Main
         
         media = ((a*3.5) + (b*7.5)) / 11;
         
-        System.out.println(String.format("MEDIA = %.5f", media));        
+        System.out.printf("MEDIA = %.5f%n", media);
     }    
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1019
 {
     public static void main(String[] args)
     {
@@ -16,8 +16,8 @@ public class Main
         minutos = aux/60;
         aux -= minutos * 60;
         
-        segundos = aux/1;
+        segundos = aux;
         
-        System.out.println(String.format("%d:%d:%d", horas, minutos, segundos));        
+        System.out.printf("%d:%d:%d%n", horas, minutos, segundos);
     }   
 }

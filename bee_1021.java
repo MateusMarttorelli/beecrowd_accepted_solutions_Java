@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1021
 {
     public static void main(String[] args)
     {
@@ -26,7 +26,6 @@ public class Main
         notas -= notas2 * 2;
         
         moedas1Real = notas;
-        notas -= moedas1Real * 1;
         moedas50 = moedas/50;
         moedas -= moedas50 * 50;
         moedas25 = moedas/25;

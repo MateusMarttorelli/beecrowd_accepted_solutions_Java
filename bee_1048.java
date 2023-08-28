@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1048
 {
     public static void main(String[] args)
     {

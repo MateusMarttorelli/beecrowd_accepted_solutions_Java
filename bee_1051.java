@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1051
 {
     public static void main(String[] args)
     {
@@ -30,7 +30,7 @@ public class Main
         }
         else
         {
-            System.out.println(String.format("R$ %.2f", imposto));
+            System.out.printf("R$ %.2f%n", imposto);
         }
     }
 }

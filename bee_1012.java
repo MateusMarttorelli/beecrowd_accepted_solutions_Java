@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1012
 {
     public static void main(String[] args)
     {
@@ -20,10 +20,10 @@ public class Main
         areaQuadrado = Math.pow(b, 2);
         areaRetangulo = a * b;
         
-        System.out.println(String.format("TRIANGULO: %.3f", areaTriangulo));  
-        System.out.println(String.format("CIRCULO: %.3f", areaCirculo)); 
-        System.out.println(String.format("TRAPEZIO: %.3f", areaTrapezio)); 
-        System.out.println(String.format("QUADRADO: %.3f", areaQuadrado)); 
-        System.out.println(String.format("RETANGULO: %.3f", areaRetangulo)); 
+        System.out.printf("TRIANGULO: %.3f%n", areaTriangulo);
+        System.out.printf("CIRCULO: %.3f%n", areaCirculo);
+        System.out.printf("TRAPEZIO: %.3f%n", areaTrapezio);
+        System.out.printf("QUADRADO: %.3f%n", areaQuadrado);
+        System.out.printf("RETANGULO: %.3f%n", areaRetangulo);
     }   
 }

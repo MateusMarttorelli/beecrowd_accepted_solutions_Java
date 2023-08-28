@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1011
 {
     public static final double PI = 3.14159;
     
@@ -10,6 +10,6 @@ public class Main
         double raio = sc.nextDouble();
         double volume = (4/3.0) * PI * Math.pow(raio, 3);
         
-        System.out.println(String.format("VOLUME = %.3f", volume));
+        System.out.printf("VOLUME = %.3f%n", volume);
     } 
 }

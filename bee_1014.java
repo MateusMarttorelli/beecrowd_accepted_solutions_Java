@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1014
 {
     public static void main(String[] args)
     {
@@ -12,6 +12,6 @@ public class Main
        x = Integer.parseInt(sc.nextLine());
        y = Double.parseDouble(sc.nextLine());
        
-        System.out.println(String.format("%.3f km/l", x/(double)y));
+        System.out.printf("%.3f km/l%n", x/ y);
     }
 }

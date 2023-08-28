@@ -1,11 +1,11 @@
 import java.util.Scanner;
 import java.util.HashMap;
 
-public class Main
+public class bee_1052
 {
     public static void main(String[] args)
     {
-        HashMap<Integer, String> meses = new HashMap<Integer, String>();
+        HashMap<Integer, String> meses = new HashMap<>();
 
         meses.put(1, "January");
         meses.put(2, "February");

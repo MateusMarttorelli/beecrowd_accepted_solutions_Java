@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class bee_1010
 {
     public static void main(String[] args)
     {
@@ -16,6 +16,6 @@ public class Main
             valorTotal += quantidade * preco;
         }
         
-        System.out.println(String.format("VALOR A PAGAR: R$ %.2f", valorTotal));
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", valorTotal);
     }
 }

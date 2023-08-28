@@ -1,4 +1,4 @@
-public class Main
+public class bee_1059
 {
     public static void main(String[] args)
     {
