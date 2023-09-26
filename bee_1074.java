@@ -20,12 +20,10 @@ public class bee_1074
             if (x % 2 == 0)
             {
                 System.out.print("EVEN ");
-
             }
             else
             {
                 System.out.print("ODD ");
-
             }
 
             if (x > 0)
